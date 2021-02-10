@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@gibrault/schematics": [
+        "dist/gibrault/schematics/gibrault-schematics",
+        "dist/gibrault/schematics"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

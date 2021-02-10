@@ -1,0 +1,11 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "extends": ["@schematics/angular"],
+  "schematics": {
+    "boilerplate": {
+      "description": "A blank schematic.",
+	  "factory": "./boilerplate/index#boilerplate",
+	  "schema": "./boilerplate/schema.json"
+    }
+  }
+}
